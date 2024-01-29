@@ -6,8 +6,8 @@ export default defineConfig({
   plugins: [vue()],
   server: {
     open: "http://localhost:5173/",
-  },
-  hmr: {
-    overlay: true,
+    hmr: {
+      overlay: true,
+    },
   },
 });

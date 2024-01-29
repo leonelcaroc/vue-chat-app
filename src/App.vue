@@ -1,16 +1,25 @@
 <template>
-  <div><SidePanel /></div>
+  <div class="parent-component">
+    <SidePanel />
+    <MainPanel />
+  </div>
 </template>
 
 <script>
-import SidePanel from "./components/SidePanel.vue";
+import SidePanel from "./layout/SidePanel.vue";
+import MainPanel from "./layout/MainPanel.vue";
 
 export default {
   name: "App",
   components: {
     SidePanel,
+    MainPanel,
   },
 };
 </script>
 
-<style></style>
+<style scoped>
+.parent-component {
+  display: flex;
+}
+</style>
