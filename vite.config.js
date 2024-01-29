@@ -7,4 +7,7 @@ export default defineConfig({
   server: {
     open: "http://localhost:5173/",
   },
+  hmr: {
+    overlay: true,
+  },
 });
