@@ -1,9 +1,16 @@
-<script setup>
-import HelloWorld from "./components/HelloWorld.vue";
-</script>
-
 <template>
-  <HelloWorld />
+  <div><SidePanel /></div>
 </template>
 
-<style scoped></style>
+<script>
+import SidePanel from "./components/SidePanel.vue";
+
+export default {
+  name: "App",
+  components: {
+    SidePanel,
+  },
+};
+</script>
+
+<style></style>

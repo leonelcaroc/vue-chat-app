@@ -9,7 +9,7 @@ const count = ref(0);
 </script>
 
 <template>
-  <div>This is vue chat application</div>
+  <div class="font-bold underline text-red-600">Hello world!</div>
 </template>
 
-<style scoped></style>
+<style></style>
